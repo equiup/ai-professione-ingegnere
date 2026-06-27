@@ -1,0 +1,87 @@
+site_name: Guida AI per Ingegneri
+site_description: Guida digitale pratica all'Intelligenza Artificiale per gli ingegneri
+site_author: Gruppo di lavoro AI - Ingegneri
+repo_name: ai-ingegneri-guida
+repo_url: https://github.com/<ORG>/<REPO>
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Passa al tema scuro
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Passa al tema chiaro
+
+plugins:
+  - search:
+      lang: it
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Introduzione:
+      - Manifesto: 00-introduzione/manifesto.md
+      - Come usare la guida: 00-introduzione/come-usare-la-guida.md
+  - Fondamenti:
+      - AI per ingegneri: 01-fondamenti/ai-per-ingegneri.md
+      - Machine Learning e Deep Learning: 01-fondamenti/ml-dl.md
+      - Generative AI, LLM e agenti: 01-fondamenti/generative-ai-llm-agenti.md
+  - Strumenti:
+      - Panoramica strumenti: 02-strumenti/panoramica.md
+      - Prompt engineering: 02-strumenti/prompt-engineering.md
+      - RAG e knowledge base: 02-strumenti/rag.md
+  - Framework operativo:
+      - AI Verified Engineering Framework: 03-framework/ai-verified-engineering-framework.md
+      - Verifica e validazione: 03-framework/verifica-validazione.md
+      - Tracciabilita e responsabilita: 03-framework/tracciabilita-responsabilita.md
+  - Settori:
+      - Ingegneria civile: 04-settori/civile.md
+      - Ingegneria industriale: 04-settori/industriale.md
+      - Ingegneria dell'informazione: 04-settori/informazione.md
+      - Ingegneria gestionale: 04-settori/gestionale.md
+      - Ingegneria ambientale: 04-settori/ambientale.md
+  - Normativa:
+      - AI Act: 05-normativa/ai-act.md
+      - GDPR e privacy: 05-normativa/gdpr.md
+      - NIS2 e cybersecurity: 05-normativa/nis2.md
+      - Responsabilita professionale: 05-normativa/responsabilita-professionale.md
+  - Standard:
+      - ISO IEC 42001: 06-standard/iso-iec-42001.md
+      - ISO IEC 23894: 06-standard/iso-iec-23894.md
+      - ISO 31000: 06-standard/iso-31000.md
+  - Toolbox:
+      - Prompt library: 07-toolbox/prompt-library.md
+      - Checklist AI Act: 07-toolbox/checklist-ai-act.md
+      - Checklist uso AI nello studio professionale: 07-toolbox/checklist-studio-professionale.md
+      - Template AI Policy: 08-template/ai-policy.md
+  - Glossario: 09-glossario/glossario.md
