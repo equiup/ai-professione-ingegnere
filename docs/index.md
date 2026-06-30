@@ -21,9 +21,7 @@ hide:
 <div class="hero-box">
 L'Intelligenza Artificiale non sostituisce l'ingegnere. Ne amplifica competenze, capacità decisionali e produttività. La responsabilità professionale rimane sempre in capo all'ingegnere.
 </div>
-
 </div>
-
 ## Cosa contiene la guida
 
 <div class="grid cards" markdown>
